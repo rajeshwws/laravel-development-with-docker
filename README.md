@@ -20,6 +20,8 @@ $ cd laravel-development-with-docker
 
 $ cp .env.example .env
 
+$ docker-compose run --rm --no-deps webapp composer install
+
 $ docker-compose up -d
 
 Now you can access the application via http://localhost:8000.
